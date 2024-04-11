@@ -114,6 +114,17 @@ div.tag-container{
     font-weight: 800;
 }
 
+.heart{
+    position: absolute;
+    right: 0;
+    top: 0.3rem;
+    background-color: white;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+}
+
 footer {
     height: 4rem;
 }
