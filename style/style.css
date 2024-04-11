@@ -61,10 +61,10 @@ a {
 }
 
 .product{
-    /* background-color: #e6e6e4; */
     height: 30rem;
     width: calc(33% - 1rem);
     margin: 0.5rem auto;
+    position: relative;
 }
 
 .gray-color{
@@ -92,6 +92,26 @@ h5{
 
 .gray-back{
     background-color: #1a1a1a;
+}
+
+div.tag-container{
+    position: absolute;
+    bottom: 5rem;
+}
+
+.discount{
+    background-color: red;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.65rem;
+    color: white;
+}
+
+.sostenibilita{
+    background-color: green;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.65rem;
+    color: white;
+    font-weight: 800;
 }
 
 footer {
