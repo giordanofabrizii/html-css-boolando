@@ -28,7 +28,7 @@ div.logo > img{
 }
 
 .horizontal-alignment.space-between{
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 header > div > *{
@@ -67,13 +67,11 @@ a {
     margin: 0.5rem auto;
 }
 
-/* .product img{
-    
-    object-fit: contain;
-} */
+.gray-color{
+    color: gray;
+}
 
 .small{
-    color: gray;
     font-size: 0.6rem;
 }
 
@@ -81,10 +79,6 @@ h5{
     font-weight: 700;
     font-size: 1rem;
     text-transform: uppercase;
-}
-
-.cost {
-
 }
 
 .new-cost{
@@ -96,12 +90,28 @@ h5{
     margin-left: 0.3rem;
 }
 
+.gray-back{
+    background-color: #1a1a1a;
+}
+
+footer {
+    height: 4rem;
+}
+
+.info-links > p {
+    margin-right: 0.4rem;
+    margin-top: 0.5rem;
+}
+
+i{
+    margin: 0.3rem 0.1rem;
+}
+
 /* image section */
 .product-image{
     height: 90%;
     background-size: contain;
 }
-
 
 .first-content{
     background-image: url(../img/1.webp);
@@ -125,3 +135,4 @@ h5{
 
 .sixth-content{
     background-image: url(../img/6.webp);
+}
