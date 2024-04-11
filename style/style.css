@@ -150,18 +150,11 @@ i{
 .first-content:hover{
     background-image: url(../img/1b.webp);
 }
-.first:hover >div.heart>i{
-    color: red;
-}
-
 .second-content{
     background-image: url(../img/2.webp);
 }
 .second-content:hover{
     background-image: url(../img/2b.webp);
-}
-.second:hover >div.heart>i{
-    color: red;
 }
 
 .third-content{
@@ -170,18 +163,12 @@ i{
 .third-content:hover{
     background-image: url(../img/3b.webp);
 }
-.third:hover >div.heart>i{
-    color: red;
-}
 
 .fourth-content{
     background-image: url(../img/4.webp);
 }
 .fourth-content:hover{
     background-image: url(../img/4b.webp);
-}
-.fourth:hover >div.heart>i{
-    color: red;
 }
 
 .fifth-content{
@@ -190,9 +177,6 @@ i{
 .fifth-content:hover{
     background-image: url(../img/5b.webp);
 }
-.fifth:hover >div.heart>i{
-    color: red;
-}
 
 .sixth-content{
     background-image: url(../img/6.webp);
@@ -200,6 +184,7 @@ i{
 .sixth-content:hover{
     background-image: url(../img/6b.webp);
 }
-.sixth:hover >div.heart>i{
+
+.heart:hover {
     color: red;
 }
